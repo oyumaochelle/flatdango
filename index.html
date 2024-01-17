@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Website</title>
     <link rel="stylesheet" href="style.css">
-    <title>Movie Ticket Booking</title>
 </head>
 <body>
-    <span class="glyphicon glyphicon-header">MOVIES</span>    
-    </div>
-    <ul id="movies">
-        <!-- Film list will be dynamically inserted here -->
-    </ul>
-    <div id="movie-details">
-        <!-- Movie details will be dynamically inserted here -->
+    <div class="container">
+        <ul id="films">
+            <!--Movie list will appear here-->
+        </ul>
+        <div id="movieDetails">
+            <!--Movie Details will be here-->
+            <button   id="buyTktButton">Buy Ticket</button>
+            <p id="soldOutMessage" class="test-danger" style="display: none;">No Avalaible Ticket!</p>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
